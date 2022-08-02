@@ -1,0 +1,82 @@
+body{
+    background-color:aliceblue;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+#main-header{
+    background-color: green;
+    color: white;
+
+}
+#navbar{
+    background-color: orange;
+    color: white;
+}
+#navbar ul{
+    padding: 0;
+    list-style: none;
+}
+#navbar li{
+    display: inline;
+    
+    
+}
+#navbar a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 10px;
+}
+#showcase{
+    background-image: url(./images/Konohavillage.webp);
+    background-position: top center;
+    min-width: 300px;
+    margin-bottom: 30px;
+    text-align: center;
+    height: 300px;
+    
+}
+#showcase h1{
+    
+    color: white;
+    font-size: 30px;
+    line-height: 1.6em;
+    padding-top: 30px;
+}
+#main{
+    float: left;
+    width: 70%;
+    padding: 0 30px;
+    box-sizing: border-box;
+
+}
+#main h1{
+    background-color: aquamarine;
+    font-size: 20px;
+}
+
+#sidebar{
+    float: right;
+    width: 30%;
+    background-color: orange;
+    color: whitesmoke;
+    padding: 10px;
+    box-sizing: border-box;
+  
+}
+#main-footer{
+    background-color: lightblue;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
